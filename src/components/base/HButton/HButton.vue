@@ -14,7 +14,7 @@ import { IButton } from "./IButton";
 export default {
   props: {
     item: {
-      type: Array as PropType<IButton[]>,
+      type: Object as PropType<IButton>,
       required: true,
     },
   },
